@@ -13,7 +13,7 @@ class SieveTest(unittest.TestCase):
         self.assertEqual(17393, sieve.nth_prime(2000))
         self.assertEqual(15485867, sieve.nth_prime(1000000))
         self.assertEqual(179424691, sieve.nth_prime(10000000))
-        # self.assertEqual(2038074751, sieve.nth_prime(100000000)) not required, just a fun challenge
+        # self.assertEqual(2038074751, sieve.nth_prime(100000000)) # not required, just a fun challenge
 
     def test_sieve_fuzz_nth_prime(self) -> None:
         pass
